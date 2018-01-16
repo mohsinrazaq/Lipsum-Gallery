@@ -1,0 +1,30 @@
+nav {
+    min-width: 30%;
+    max-width: 40%;
+    align-self: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+ 
+}
+
+li {
+    background-color: #D7D8D8;
+    display: inline;
+    border: 3px solid #CFCFCF;
+}
+
+li a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding:24px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(194, 183, 183);
+}

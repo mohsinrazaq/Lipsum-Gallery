@@ -1,9 +1,8 @@
 header{
     display: flex;
     background-color:#F2F2F2;
-    border-top:3px solid #999999;
+    border-top:1px solid #999999;
     border-bottom:3px solid #999999;
-    margin-top: 20px;
     width: 100%;
     min-height: 90px;
     max-height: 90px;

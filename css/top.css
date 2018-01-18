@@ -1,33 +1,33 @@
 .top {
     margin:0;
+    width: 100%;
     border: 2px solid #858585;
-}
-.left{
     display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 30px;
+    max-height: 30px;
 }
-.left > h4 {
+.language > a > .language-icon{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.language > a > span > h4 {
     margin:0;
-    margin-top:10px;
+    padding: 0;
+    margin-top:-24px;
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 60px;
 }
 
-.left > .language-icon { 
-    margin-left: 70px;
-    margin-top: 14px;
-    margin-bottom: 10px;
+.language > a{
+    text-decoration: none;
+    color: black;
 }
 
-.right {
-    float: right;
-}
-
-.fb-icon{
-    margin-top: 14px;
-    margin-bottom: 10px; 
-}
-
-.twitter-icon{
-    margin-top: 14px;
-    margin-bottom: 10px;
+.icons{
+    align-self: flex-end;
+    margin-bottom: 5px; 
+    margin-right: 50px;
 }

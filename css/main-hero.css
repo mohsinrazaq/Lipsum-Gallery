@@ -1,0 +1,24 @@
+.main-hero {
+    margin:0;
+    padding: 0;
+    height: 380px;
+    max-height: 380px;
+    background-color: #D8D8D8;
+}
+
+.empty{
+    width: 100%;
+    height: 50px;
+}
+
+.main-hero > .content > h1 {
+    padding: 0;
+    text-align: center;
+    font-size: 44px;
+}
+
+.main-hero > .content > p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+}

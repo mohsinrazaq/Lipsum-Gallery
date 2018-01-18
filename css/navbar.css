@@ -7,8 +7,6 @@ nav {
 ul {
     list-style-type: none;
     padding: 0;
-    overflow: hidden;
- 
 }
 
 li {
@@ -25,6 +23,244 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: rgb(194, 183, 183);
+@media only screen and (max-width: 1236px) {
+    nav {
+        min-width: 50%;
+        max-width: 50%;
+        align-self: center;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    li a {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-align: center;
+        padding:30px;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    nav {
+        min-width: 60%;
+        max-width: 60%;
+        align-self: center;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    li a {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-align: center;
+        padding:36px;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    nav {
+        min-width: 50%;
+        max-width: 50%;
+        align-self: center;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    li a {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-align: center;
+        padding:26px;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    nav {
+        min-width: 30%;
+        max-width: 30%;
+        margin-top: -15px;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    li {
+        background-color: #D7D8D8;
+        display: inline-block;
+        margin-top: 10px;
+        border: 3px solid #CFCFCF;
+    }
+    
+    li a {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-align: center;
+        padding:14px 8px;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    nav {
+        min-width: 30%;
+        max-width: 30%;
+        margin-top: -15px;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    li {
+        background-color: #D7D8D8;
+        display: inline-block;
+        margin-top: 10px;
+        border: 3px solid #CFCFCF;
+    }
+    
+    li a {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-align: center;
+        padding:10px 6px;
+        text-decoration: none;
+    }
+    
+}
+
+@media only screen and (max-width: 740px) {
+    nav {
+        min-width: 30%;
+        max-width: 30%;
+        margin-top: -15px;
+       
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    li {
+        background-color: #D7D8D8;
+        display: inline-block;
+        margin-top: 10px;
+        text-align: center;
+        width: 80px;
+        border: 3px solid #CFCFCF;
+    }
+    
+    li a {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        padding:10px 6px;
+        text-decoration: none;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        align-self: flex-end;
+        margin-left: -435px;
+        min-width: 100%;
+        max-width: 100%;
+        margin-top: -15px;
+       
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li {
+        background-color: #D7D8D8;
+        display: inline-block;
+        float: left;
+        margin-top: 10px;
+        text-align: center;
+        width: 80px;
+        border: 3px solid #CFCFCF;
+    }
+    li a {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        padding:10px 6px;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    nav {
+        align-self: flex-end;
+        margin-left: -400px;
+        min-width: 100%;
+        max-width: 100%;
+        margin-top: -15px;
+       
+    }
+}
+
+@media only screen and (max-width: 400px){
+    nav {
+        align-self: flex-end;
+        margin-left: -868px;
+        min-width: 100%;
+        max-width: 100%;  
+    }
+}
+@media only screen and (max-width: 320px){
+    nav {
+        align-self: flex-end;
+        margin-left: -735px;
+        min-width: 100%;
+        max-width: 100%;    
+    }
+}
+
+@media only screen and (max-width: 340px){
+    nav {
+        align-self: flex-end;
+        margin-left: -735px;
+        min-width: 100%;
+        max-width: 100%;    
+    }
+}
+
+@media only screen and (max-width: 360px){
+    nav {
+        align-self: flex-end;
+        margin-left: -810px;
+        min-width: 100%;
+        max-width: 100%;   
+        overflow: hidden; 
+    }
+}
+
+@media only screen and (max-width: 280px){
+    nav {
+        align-self: flex-end;
+        margin-left: -754px;
+        min-width: 100%;
+        max-width: 100%;    
+    }
 }

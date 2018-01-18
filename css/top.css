@@ -2,16 +2,32 @@
     margin:0;
     border: 2px solid #858585;
 }
-
-.top > h4 {
+.left{
+    display: inline-flex;
+}
+.left > h4 {
     margin:0;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.left > .language-icon { 
     margin-left: 70px;
+    margin-top: 14px;
     margin-bottom: 10px;
 }
 
-.top > img {
-    position:absolute;
-    margin-left: 45px;
-    margin-top: 4px;
+.right {
+    float: right;
+}
+
+.fb-icon{
+    margin-top: 14px;
+    margin-bottom: 10px; 
+}
+
+.twitter-icon{
+    margin-top: 14px;
     margin-bottom: 10px;
 }

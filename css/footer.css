@@ -1,0 +1,27 @@
+footer{
+    width:100%;
+    min-height: 420px;
+    max-height: 420px;
+    background-color: #3F3F3F;
+    border: 1px solid white;
+}
+
+footer > .top-footer {
+    height: 360px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+
+
+footer > .bottom-footer {
+    min-height: 40px;
+    max-height: 40px;
+
+}
+footer > .bottom-footer > p {
+    text-align: center;
+    padding-bottom: 10px;
+    color:white;
+ 
+}

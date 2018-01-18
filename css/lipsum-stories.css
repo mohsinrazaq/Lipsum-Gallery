@@ -1,5 +1,42 @@
 .lipsum-stories {
     width: 100%;
-    height:1000px;
-    background-color: #FFFFFF;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+    
+}
+
+.lipsum-stories > h1 {
+    text-align: center;
+    margin-left: -60px;
+}
+.lipsum-stories > .paragraphs {
+   columns: 2 ;
+}
+
+.paragraphs{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.para-1 {
+    margin-top: -20px;
+}
+
+.para-1 > h3 {
+    text-align: left;
+   
+}
+
+.para > h3 {
+    text-align: left;
+
+}
+
+.lipsum-stories > a {
+    text-decoration: none;
+    float: right;
+    margin-right: 20px;
 }

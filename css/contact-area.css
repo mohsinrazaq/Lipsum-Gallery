@@ -1,0 +1,12 @@
+.contact-area{
+    width: 100%;
+    height: 100px;
+    background-color: #F2F2F2;
+    border-top:2px solid #909090;
+    text-align: center;
+}
+
+.contact-area > h1 >   a {
+    color: black;
+    font-weight: 500;
+}

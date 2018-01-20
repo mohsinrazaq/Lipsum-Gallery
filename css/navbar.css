@@ -4,18 +4,18 @@ nav {
     align-self: center;
 }
 
-ul {
+nav > ul {
     list-style-type: none;
     padding: 0;
 }
 
-li {
+nav > ul > li {
     background-color: #D7D8D8;
     display: inline;
     border: 3px solid #CFCFCF;
 }
 
-li a {
+nav > ul >  li > a {
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-align: center;

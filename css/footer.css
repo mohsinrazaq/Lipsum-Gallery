@@ -13,7 +13,9 @@ footer{
 
 .top-footer{
     display: inline-flex;
-    flex-wrap: no-wrap;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
 }
 
 footer > .top-footer > .top-footer-column-1{
@@ -23,7 +25,7 @@ footer > .top-footer > .top-footer-column-1{
 
 footer > .top-footer > .top-footer-column-2{
     margin-left: 30px;
-    width: 25%;
+    width: 20%;
 }
 
 footer > .top-footer > .top-footer-column-2 > h3 {
@@ -33,6 +35,7 @@ footer > .top-footer > .top-footer-column-2 > h3 {
 footer > .top-footer > .top-footer-column-2 > ul > li{
     list-style: none;
     padding: 3px;
+    display: block;
 }
 
 footer > .top-footer > .top-footer-column-2 > ul > li> a {
@@ -41,7 +44,7 @@ footer > .top-footer > .top-footer-column-2 > ul > li> a {
 
 footer > .top-footer > .top-footer-column-3{
     margin-left: 30px;
-    width: 25%;
+    width: 20%;
 }
 
 footer > .top-footer > .top-footer-column-3 > h3 {
@@ -51,6 +54,7 @@ footer > .top-footer > .top-footer-column-3 > h3 {
 footer > .top-footer > .top-footer-column-3 > ul > li {
     list-style: none;
     padding: 3px;
+    display: block;
 }
 
 
@@ -85,4 +89,618 @@ footer > .top-footer > .top-footer-column-4 > form > .subscribe-button {
 .bottom-footer{
     border-top: 1px solid #787878;
     text-align: center;
+}
+
+@media (max-width: 1200px){
+    footer > .top-footer > .top-footer-column-1{
+        margin-left: 30px;
+        width: 30%;
+    }
+    
+    footer > .top-footer > .top-footer-column-2{
+        margin-left: 30px;
+        width: 15%;
+    }
+
+    footer > .top-footer > .top-footer-column-3{
+        margin-left: 30px;
+        width: 15%;
+    }
+}
+
+@media (max-width: 970px){
+    footer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 440px;
+        background-color: #3F3F3F;
+        color: white;
+    }
+
+    .top-footer{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    
+    footer > .top-footer > .top-footer-column-1{
+        margin-left: 30px;
+        width: 50%;
+    }
+    
+    footer > .top-footer > .top-footer-column-2{
+        margin-left: 30px;
+        align-self: flex-end;
+        width: 40%;
+    }
+
+    footer > .top-footer > .top-footer-column-3{
+        margin-left: 30px;
+        width: 15%;
+    }
+}
+
+@media (max-width: 900px){
+    footer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 420px;
+        background-color: #3F3F3F;
+        color: white;
+    }
+
+    .top-footer{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    
+    footer > .top-footer > .top-footer-column-1{
+        margin-left: 30px;
+        width: 50%;
+    }
+    
+    footer > .top-footer > .top-footer-column-2{
+        margin-left: 30px;
+        align-self: flex-end;
+        width: 40%;
+    }
+
+    footer > .top-footer > .top-footer-column-3{
+        margin-left: 30px;
+        width: 15%;
+    }
+}
+
+@media (max-width: 828px){
+    footer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 410px;
+        background-color: #3F3F3F;
+        color: white;
+    }
+
+    .top-footer{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    
+    footer > .top-footer > .top-footer-column-1{
+        margin-left: 30px;
+        width: 50%;
+    }
+    
+    footer > .top-footer > .top-footer-column-2{
+        margin-left: 30px;
+        align-self: flex-end;
+        width: 40%;
+    }
+
+    footer > .top-footer > .top-footer-column-3{
+        margin-left: 30px;
+        width: 15%;
+    }
+}
+
+@media (max-width: 896px){
+    footer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 420px;
+        background-color: #3F3F3F;
+        color: white;
+    }
+
+    .top-footer{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    
+    footer > .top-footer > .top-footer-column-1{
+        margin-left: 30px;
+        width: 50%;
+    }
+    
+    footer > .top-footer > .top-footer-column-2{
+        margin-left: 30px;
+        align-self: flex-end;
+        width: 40%;
+    }
+
+    footer > .top-footer > .top-footer-column-3{
+        margin-left: 30px;
+        width: 15%;
+    }
+}
+
+@media (max-width: 708px){
+    footer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 455px;
+        background-color: #3F3F3F;
+        color: white;
+    }
+
+    .top-footer{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    
+    footer > .top-footer > .top-footer-column-1{
+        margin-left: 30px;
+        width: 50%;
+    }
+    
+    footer > .top-footer > .top-footer-column-2{
+        margin-left: 30px;
+        align-self: flex-end;
+        width: 40%;
+    }
+
+    footer > .top-footer > .top-footer-column-3{
+        margin-left: 30px;
+        width: 15%;
+    }
+}
+
+@media (max-width: 650px){
+    footer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 510px;
+        background-color: #3F3F3F;
+        color: white;
+    }
+
+    .top-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    footer > .top-footer > .top-footer-column-1{
+        margin-left: 30px;
+        width: 40%;
+    }
+    
+    footer > .top-footer > .top-footer-column-2{
+        margin-left: 30px;
+        width: 50%;
+    }
+
+    footer > .top-footer > .top-footer-column-3{
+        margin-left: 30px;
+        width: 40%;
+    }
+    
+    footer > .top-footer > .top-footer-column-4{
+        margin-left: 30px;
+        width: 40%;
+    }
+}
+
+@media (max-width: 600px){
+    footer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 620px;
+        background-color: #3F3F3F;
+        color: white;
+    }
+
+    .top-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    footer > .top-footer > .top-footer-column-1{
+        margin-left: 30px;
+        width: 100%;
+    }
+    
+    footer > .top-footer > .top-footer-column-2{
+        margin-left: 30px;
+        width: 100%;
+    }
+    
+    footer > .top-footer > .top-footer-column-2 > ul > li {
+        display: inline-block;
+    }
+
+    footer > .top-footer > .top-footer-column-3{
+        margin-left: 30px;
+        width: 100%;
+    }
+
+    footer > .top-footer > .top-footer-column-3 > ul > li {
+        display: inline-block;
+    }
+    
+    footer > .top-footer > .top-footer-column-4{
+        margin-left: 30px;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    footer > .top-footer > .top-footer-column-4 > h3,h4 {
+        margin-left: 40px;
+    }
+
+    footer > .top-footer > .top-footer-column-4 > form > .email-text {
+        margin-left: 40px;
+        width: 82%;
+    }
+
+    footer > .top-footer > .top-footer-column-4 > form > .subscribe-button {
+        float: right;    }
+}
+
+@media (max-width: 500px){
+    footer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height:650px;
+        background-color: #3F3F3F;
+        color: white;
+    }
+
+    .top-footer{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    footer > .top-footer > .top-footer-column-1{
+        width: 100%;
+    }
+    
+    footer > .top-footer > .top-footer-column-2{
+        font-size: 14px;
+        width: 100%;
+    }
+
+    footer > .top-footer > .top-footer-column-2{
+       margin-top: 30px;
+    }
+
+    footer > .top-footer > .top-footer-column-3{
+        margin-left: 30px;
+        width: 100%;
+        font-size: 14px;
+    }
+    footer > .top-footer > .top-footer-column-4{
+        width: 90%;
+    }
+
+    footer > .top-footer > .top-footer-column-4 > form > .email-text{
+        width: 60%;
+    }
+
+    footer > .top-footer > .top-footer-column-4 > form > .subscribe-button{
+        float: right;
+        margin-right: 130px;
+    }
+}
+
+@media (max-width: 542px){
+    footer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height:670px;
+        background-color: #3F3F3F;
+        color: white;
+    }
+
+    .top-footer{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    footer > .top-footer > .top-footer-column-1{
+        width: 100%;
+    }
+    
+    footer > .top-footer > .top-footer-column-2{
+        font-size: 14px;
+        width: 100%;
+    }
+
+    footer > .top-footer > .top-footer-column-2{
+       margin-top: 30px;
+    }
+
+    footer > .top-footer > .top-footer-column-3{
+        margin-left: 30px;
+        width: 100%;
+        font-size: 14px;
+    }
+    footer > .top-footer > .top-footer-column-4{
+        width: 90%;
+    }
+
+    footer > .top-footer > .top-footer-column-4 > form > .email-text{
+        width: 60%;
+    }
+
+    footer > .top-footer > .top-footer-column-4 > form > .subscribe-button{
+        float: right;
+        margin-right: 130px;
+    }
+}
+
+@media (max-width: 410px){
+    footer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height:670px;
+        background-color: #3F3F3F;
+        color: white;
+    }
+
+    .top-footer{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    footer > .top-footer > .top-footer-column-1{
+        width: 100%;
+    }
+    
+    footer > .top-footer > .top-footer-column-2{
+        font-size: 14px;
+        width: 100%;
+    }
+
+    footer > .top-footer > .top-footer-column-2{
+       margin-top: 30px;
+    }
+    footer > .top-footer > .top-footer-column-2 > ul > li {
+        display: inline-block;
+    }
+
+    footer > .top-footer > .top-footer-column-3{
+        margin-left: 30px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    footer > .top-footer > .top-footer-column-3 > ul > li {
+        display: inline-block;
+    }
+    footer > .top-footer > .top-footer-column-4{
+       
+        width: 50%;
+    }
+
+    footer > .top-footer > .top-footer-column-4 > h3,h4{
+        margin-left: -60px;
+    }
+
+    footer > .top-footer > .top-footer-column-4 > form > .email-text{
+        margin-left: -60px;
+        width: 100%;
+    }
+    footer > .top-footer > .top-footer-column-4 > form > .subscribe-button {
+        margin-left: -30px;
+    }
+}
+
+@media (max-width: 380px){
+    footer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height:690px;
+        background-color: #3F3F3F;
+        color: white;
+    }
+
+    .top-footer{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    footer > .top-footer > .top-footer-column-1{
+        width: 100%;
+    }
+    
+    footer > .top-footer > .top-footer-column-2{
+        font-size: 14px;
+        width: 100%;
+    }
+
+    footer > .top-footer > .top-footer-column-2{
+       margin-top: 30px;
+    }
+    footer > .top-footer > .top-footer-column-2 > ul > li {
+        display: inline-block;
+    }
+
+    footer > .top-footer > .top-footer-column-3{
+        margin-left: 30px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    footer > .top-footer > .top-footer-column-3 > ul > li {
+        display: inline-block;
+    }
+    footer > .top-footer > .top-footer-column-4{
+        margin-left: 130px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 316px){
+    footer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height:710px;
+        background-color: #3F3F3F;
+        color: white;
+    }
+
+    .top-footer{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    footer > .top-footer > .top-footer-column-1{
+        width: 100%;
+    }
+    
+    footer > .top-footer > .top-footer-column-2{
+        font-size: 14px;
+        width: 100%;
+    }
+
+    footer > .top-footer > .top-footer-column-2 > h3 {
+        margin-left:-100px;
+    }
+    
+    footer > .top-footer > .top-footer-column-2 > ul{
+        margin-left: -145px;
+    }
+
+    footer > .top-footer > .top-footer-column-2{
+       margin-top: 30px;
+    }
+    footer > .top-footer > .top-footer-column-2 > ul > li {
+        display: inline-block;
+    }
+
+    footer > .top-footer > .top-footer-column-3{
+        margin-left: 30px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    footer > .top-footer > .top-footer-column-3 > h3 {
+        margin-left: -1px;
+    }
+    
+    footer > .top-footer > .top-footer-column-3 > ul{
+        margin-left: -40px;
+    }
+
+    footer > .top-footer > .top-footer-column-3 > ul > li {
+        display: inline-block;
+    }
+    footer > .top-footer > .top-footer-column-4{
+        width: 100%;
+    }
+
+    footer > .top-footer > .top-footer-column-4 > h3,h4 {
+        margin-left: -100px;
+    }
+
+    footer > .top-footer > .top-footer-column-4 >form > .email-text {
+        margin-left: -100px;
+        width: 50%;
+    }
+    footer > .top-footer > .top-footer-column-4 >form > .subscribe-button {
+        float: left;
+    }
+}
+
+@media (max-width: 280px){
+    footer{
+        margin: 0;
+        padding: 0;
+        height:730px;
+        background-color: #3F3F3F;
+        color: rgb(255, 255, 255);
+    }
+
+    .top-footer{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    footer > .top-footer > .top-footer-column-2{
+        font-size: 14px;
+        width: 100%;
+    }
+
+    footer > .top-footer > .top-footer-column-2 > h3 {
+       margin-left: -8px;
+    }
+    
+    footer > .top-footer > .top-footer-column-2 > ul{
+        margin-left: -50px;
+    }
+
+    footer > .top-footer > .top-footer-column-2{
+       margin-top: 30px;
+    }
+    footer > .top-footer > .top-footer-column-2 > ul > li {
+        display: inline-block;
+    }
+
+    footer > .top-footer > .top-footer-column-4 {
+        width: 60%;
+    }
+
+    footer > .top-footer > .top-footer-column-4 > form > .email-text {
+    width: 150px;
+    }
+    footer > .top-footer > .top-footer-column-4 >form > .subscribe-button {
+        margin-right: 60px;
+    }
 }

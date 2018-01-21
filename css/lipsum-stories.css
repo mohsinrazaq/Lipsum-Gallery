@@ -40,3 +40,60 @@
     float: right;
     margin-right: 20px;
 }
+
+@media (max-width:634px){
+    .lipsum-stories {
+        width: 100%;
+        height: 600px;
+    }
+}
+@media (max-width:580px){
+    .lipsum-stories {
+        width: 100%;
+        height: 720px;
+    }
+    .lipsum-stories > .paragraphs {
+        columns: 1 ;
+    }
+}
+
+@media (max-width:458px){
+    .lipsum-stories {
+        width: 100%;
+        height:800px;
+    }
+    .lipsum-stories > .paragraphs {
+        columns: 1 ;
+    }
+}
+
+@media (max-width:366px){
+    .lipsum-stories {
+        width: 100%;
+        height: 895px;
+    }
+    .lipsum-stories > .paragraphs {
+        columns: 1 ;
+    }
+}
+
+@media (max-width:312px){
+    .lipsum-stories {
+        width: 100%;
+        height: 980px;
+    }
+    .lipsum-stories > .paragraphs {
+        columns: 1 ;
+    }
+}
+
+@media (max-width:280px){
+    .lipsum-stories {
+        width: 100%;
+        height: 1005px;
+    }
+    .lipsum-stories > .paragraphs {
+        columns: 1 ;
+    }
+}
+

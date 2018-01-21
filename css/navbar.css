@@ -1,41 +1,37 @@
-nav {
-    min-width: 30%;
-    max-width: 40%;
-    align-self: center;
-}
-
-nav > ul {
+header > .nav-pills > nav > ul {
     list-style-type: none;
     padding: 0;
 }
 
-nav > ul > li {
+header > .nav-pills > nav > ul > li {
     background-color: #D7D8D8;
-    display: inline;
-    border: 3px solid #CFCFCF;
+    display: inline-block;
+    border: 2px solid #CFCFCF;
+    margin-top: 14px;
 }
 
-nav > ul >  li > a {
+header > .nav-pills > nav > ul >  li > a {
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-align: center;
     padding:24px;
+    
     text-decoration: none;
 }
 
-@media only screen and (max-width: 1236px) {
-    nav {
+/* @media only screen and (max-width: 1236px) {
+    header > .nav-pills > nav {
         min-width: 50%;
         max-width: 50%;
         align-self: center;
     }
-    ul {
+    header > .nav-pills > nav > ul {
         list-style-type: none;
         padding: 0;
         overflow: hidden;
     }
     
-    li a {
+    header > .nav-pills > nav > ul > li > a {
         color: rgb(0, 0, 0);
         font-weight: bold;
         text-align: center;
@@ -45,18 +41,18 @@ nav > ul >  li > a {
 }
 
 @media only screen and (max-width: 1080px) {
-    nav {
+    header > .nav-pills >  nav {
         min-width: 60%;
         max-width: 60%;
         align-self: center;
     }
-    ul {
+    header > .nav-pills >  nav > ul {
         list-style-type: none;
         padding: 0;
         overflow: hidden;
     }
     
-    li a {
+    header > .nav-pills > nav > ul > li >  a {
         color: rgb(0, 0, 0);
         font-weight: bold;
         text-align: center;
@@ -66,18 +62,18 @@ nav > ul >  li > a {
 }
 
 @media only screen and (max-width: 940px) {
-    nav {
+    header > .nav-pills > nav {
         min-width: 50%;
         max-width: 50%;
         align-self: center;
     }
-    ul {
+    header > .nav-pills >  nav > ul {
         list-style-type: none;
         padding: 0;
         overflow: hidden;
     }
     
-    li a {
+    header > .nav-pills > nav > ul  > li > a {
         color: rgb(0, 0, 0);
         font-weight: bold;
         text-align: center;
@@ -87,26 +83,25 @@ nav > ul >  li > a {
 }
 
 @media only screen and (max-width: 900px) {
-    nav {
-        min-width: 30%;
-        max-width: 30%;
+    header > .nav-pills > nav {
+        min-width: 100%;
         margin-top: -15px;
     }
     
-    ul {
+    header > .nav-pills > nav > ul {
         list-style-type: none;
         padding: 0;
         overflow: hidden;
     }
     
-    li {
+    header > .nav-pills > nav > ul > li {
         background-color: #D7D8D8;
         display: inline-block;
         margin-top: 10px;
         border: 3px solid #CFCFCF;
     }
     
-    li a {
+    header > .nav-pills > nav > ul > li > a {
         color: rgb(0, 0, 0);
         font-weight: bold;
         text-align: center;
@@ -115,27 +110,27 @@ nav > ul >  li > a {
     }
 }
 
-@media only screen and (max-width: 790px) {
-    nav {
+/* @media only screen and (max-width: 790px) {
+    header > .nav-pills > nav {
         min-width: 30%;
         max-width: 30%;
         margin-top: -15px;
     }
     
-    ul {
+    header > .nav-pills > nav > ul {
         list-style-type: none;
         padding: 0;
         overflow: hidden;
     }
     
-    li {
+    header > .nav-pills > nav > ul > li {
         background-color: #D7D8D8;
         display: inline-block;
         margin-top: 10px;
         border: 3px solid #CFCFCF;
     }
     
-    li a {
+    header > .nav-pills > nav > ul > > li > a {
         color: rgb(0, 0, 0);
         font-weight: bold;
         text-align: center;
@@ -146,20 +141,20 @@ nav > ul >  li > a {
 }
 
 @media only screen and (max-width: 740px) {
-    nav {
+    header > .nav-pills > nav {
         min-width: 30%;
         max-width: 30%;
         margin-top: -15px;
        
     }
     
-    ul {
+    header > .nav-pills > nav > ul {
         list-style-type: none;
         padding: 0;
         overflow: hidden;
     }
     
-    li {
+    header > .nav-pills > nav > ul > li {
         background-color: #D7D8D8;
         display: inline-block;
         margin-top: 10px;
@@ -168,7 +163,7 @@ nav > ul >  li > a {
         border: 3px solid #CFCFCF;
     }
     
-    li a {
+    header > .nav-pills > nav > ul > > li a {
         color: rgb(0, 0, 0);
         font-weight: bold;
         padding:10px 6px;
@@ -178,21 +173,24 @@ nav > ul >  li > a {
 }
 
 @media only screen and (max-width: 600px) {
-    nav {
-        align-self: flex-end;
-        margin-left: -435px;
-        min-width: 100%;
+    header > .nav-pills > nav {
+        align-self: center;
+        width: 100%;
         max-width: 100%;
-        margin-top: -15px;
+        margin-top: -25px;
        
     }
-    ul {
+    header > .nav-pills > nav > ul {
         list-style-type: none;
         padding: 0;
         overflow: hidden;
     }
 
-    li {
+    header > .nav-pills {
+        align-self: center;
+    }
+
+    header > .nav-pills >  nav > ul > li {
         background-color: #D7D8D8;
         display: inline-block;
         float: left;
@@ -201,7 +199,7 @@ nav > ul >  li > a {
         width: 80px;
         border: 3px solid #CFCFCF;
     }
-    li a {
+    header > nav > ul > li > a {
         color: rgb(0, 0, 0);
         font-weight: bold;
         padding:10px 6px;
@@ -210,7 +208,7 @@ nav > ul >  li > a {
 }
 
 @media only screen and (max-width: 460px) {
-    nav {
+    header > nav {
         align-self: flex-end;
         margin-left: -400px;
         min-width: 100%;
@@ -221,7 +219,7 @@ nav > ul >  li > a {
 }
 
 @media only screen and (max-width: 400px){
-    nav {
+    header > nav {
         align-self: flex-end;
         margin-left: -868px;
         min-width: 100%;
@@ -229,7 +227,7 @@ nav > ul >  li > a {
     }
 }
 @media only screen and (max-width: 320px){
-    nav {
+    header > nav {
         align-self: flex-end;
         margin-left: -735px;
         min-width: 100%;
@@ -238,7 +236,7 @@ nav > ul >  li > a {
 }
 
 @media only screen and (max-width: 340px){
-    nav {
+    header > nav {
         align-self: flex-end;
         margin-left: -735px;
         min-width: 100%;
@@ -247,7 +245,7 @@ nav > ul >  li > a {
 }
 
 @media only screen and (max-width: 360px){
-    nav {
+    header > nav {
         align-self: flex-end;
         margin-left: -810px;
         min-width: 100%;
@@ -257,10 +255,10 @@ nav > ul >  li > a {
 }
 
 @media only screen and (max-width: 280px){
-    nav {
+    header > nav {
         align-self: flex-end;
         margin-left: -754px;
         min-width: 100%;
         max-width: 100%;    
     }
-}
+} */ */

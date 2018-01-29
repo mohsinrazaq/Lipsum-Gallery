@@ -582,7 +582,7 @@ footer > .top-footer > .top-footer-column-4 > form > .subscribe-button {
     }
 }
 
-@media (max-width: 316px){
+@media (max-width: 320px){
     footer{
         margin: 0;
         padding: 0;

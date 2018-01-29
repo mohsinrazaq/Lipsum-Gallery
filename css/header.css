@@ -1,5 +1,5 @@
 header{
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
     background-color:#F2F2F2;
     border-top:1px solid #999999;
@@ -40,166 +40,11 @@ header > .search-box > form >  img {
     margin-left: -35px;
 }
 
-/* @media only screen and (max-width: 1236px) {
-    header > .heading {
-        min-width: 25%;
-        max-width: 25%;
-    }
 
-    header > .search-box {
-        min-width: 30%;
-        max-width: 30%;
-    }
-    
-    .search-box > form > input {
-        width: 80%;
-        margin-top: 20px;
-        height: 40px;
-        border: 3px solid black;
-    }
-}
-
-@media only screen and (max-width: 1080px){
-    header > .heading {
-        min-width: 20%;
-        max-width: 20%;
-    }
-    header > .heading > h1 {
-        margin-top: 25px;
-        margin-left: 25px;
-        font-size: 25px;
-    }
-
-    header > .search-box {
-        min-width: 25%;
-        max-width: 25%;
-    }
-    
-    .search-box > form > input {
-        width: 80%;
-        margin-top: 20px;
-        height: 40px;
-        border: 3px solid black;
-    }
-}
-
-@media only screen and (max-width: 1020px){
-    header > .heading {
-        min-width: 20%;
-    }
-    header > .heading > h1 {
-        margin-top: 20px;
-        margin-left: 25px;
-        font-size: 25px;
-    }
-
-    header > .search-box {
-        min-width : 30%;
-    }
-}
-
-@media only screen and (max-width: 1070px){
-    header > .heading {
-        min-width: 25%;
-    }
-    header > .heading > h1 {
-        margin-top: 20px;
-        margin-left: 25px;
-        font-size: 25px;
-    }
-
-    header > .search-box {
-        min-width : 25%;
-    }
-}
-
-@media only screen and (max-width: 900px){
-    header{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        width: 100%;
-        min-height: 160px;
-        overflow: hidden;
-    }
-    header > .heading  {
-        width: 100%;
-    }
-
-    header > .heading > h1 {
-        width: 100%;
-        font-size: 25px;
-    }
-
-    header > .search-box > form > .search-box-input {
-        min-width: 100%;
-
-    }
-    
-    form > input {
-        width: 80%;
-        margin-top: 25px;
-        height: 40px;
-        border: 3px solid black;
-    }
-}
-
-@media only screen and (max-width: 900px){
-    header > .heading {
-        min-width: 35%;
-        max-width: 35%;
-    }
-   
-    header > .search-box {
-        min-width: 35%;
-        max-width: 35%;
-    }
-    
-    form > input {
-        width: 80%;
-        margin-top: 20px;
-        height: 40px;
-        border: 3px solid black;
-    }
-}
-
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 320px){
     header{
         width: 100%;
-        min-height: 110px;
-        max-height: 110px;
-        overflow: hidden;
-    }
-    header > .heading {
-        min-width: 35%;
-        max-width: 30%;
-    }
-
-    header > .heading > h1 {
-        margin-top: 30px;
-        margin-left: 25px;
-        font-size: 25px;
-    }
-
-    header > .search-box {
-        min-width: 35%;
-        max-width: 35%;
-    }
-    
-    form > input {
-        width: 80%;
-        margin-top: 32px;
-        height: 30px;
-    }
-}
-
-@media only screen and (max-width: 600px){
-    header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        min-height: 160px;
+        height:350px;
         overflow: hidden;
     }
     header > .heading {
@@ -207,167 +52,50 @@ header > .search-box > form >  img {
     }
 
     header > .heading > h1 {
-        margin-top: 25px;
-        font-size: 25px;
-        text-align: center;
-    }
-
-    header > .search-box {
-        min-width: 100%;
-        text-align: center;
-    }
-    
-    .search-box > form > .search-box-input {
-        width: 60%;
-        margin-top: 5px;
-        height: 20px;
-        margin-bottom: 10px;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    header {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        height: 300px;
-    }
-
-    header > .heading > h1   {
-        width: 100%;
+        margin-top: 6px;
+        margin-left: 60px;
+        font-size: 24px;
     }
 
     header > .search-box > form {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 400px){
-    header{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        min-height:230px;
-        max-height: 250px;
-        overflow: hidden;
-    }
-    header > .heading {
-        min-width: 100%;
-        max-width: 100%;
-    }
-
-    header > .heading > h1 {
-        margin-top: 12px;
-        margin-left: 120px;
-        font-size: 20px;
-    }
-
-    header > .search-box {
-        min-width: 80%;
-        max-width:100%;
-      }
-    
-    form > input {
-        width: 100%;
-        height: 30px;
-        margin-top: -55px;
-        margin-left: -440px;
-    }
-}
-
-@media only screen and (max-width: 340px){
-    header{
-        width: 100%;
-        min-height:170px;
-        max-height: 170px;
-        overflow: hidden;
-    }
-    header > .heading {
-        min-width: 100%;
-        max-width: 100%;
-    }
-
-    header > .heading > h1 {
-        margin-top: 5px;
-        margin-left: 90px;
-        font-size: 25px;
-    }
-
-    header > form {
-        min-width: 100%;
-        max-width:100%;
-        margin-left: 100px;
+        min-width: 240%;
+        margin-left: 170px;
+        margin-top: 40px;
     }
     
-    form > input {
-        width: 60%;
-        height: 30px;
-        margin-top: 45px;
-        margin-left: -370px;
-    }
-}
-
-@media only screen and (max-width: 360px){
-    header{
-        width: 100%;
-        min-height:140px;
-        max-height: 140px;
-        overflow: hidden;
-    }
-    header > .heading {
-        min-width: 100%;
-        max-width: 100%;
+    header > .search-box > form >  input {
+        width: 80%;
+        height: 20px;
+        margin-left: -470px;
     }
 
-    header > .heading > h1 {
-        margin-top: 5px;
-        margin-left: 90px;
-        font-size: 25px;
-    }
-
-    header > form {
-        min-width: 100%;
-        max-width:100%;
-        margin-left: 100px;
-    }
-    
-    form > input {
-        width: 60%;
-        height: 30px;
-        margin-top: 45px;
-        margin-left: -390px;
-    }
 }
 
 @media only screen and (max-width: 280px){
     header{
         width: 100%;
-        min-height:170px;
-        max-height: 170px;
+        height:350px;
         overflow: hidden;
     }
     header > .heading {
         min-width: 100%;
-        max-width: 100%;
     }
 
     header > .heading > h1 {
         margin-top: 6px;
-        margin-left: 80px;
-        font-size: 18px;
+        margin-left: 60px;
+        font-size: 24px;
     }
 
-    header > form {
-        min-width: 100%;
-        max-width:100%;
+    header > .search-box > form {
+        min-width: 240%;
         margin-left: 208px;
+        margin-top: 40px;
     }
     
-    form > input {
+    header > .search-box > form >  input {
         width: 80%;
-        height: 30px;
-        margin-top: 45px;
+        height: 20px;
         margin-left: -470px;
     }
-}
-} */
+} 

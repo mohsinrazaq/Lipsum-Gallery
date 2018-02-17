@@ -4,13 +4,10 @@
     background-color: rgb(255, 255, 255);
 }
 
-.wrapper {
-    
-}
-
 .lipsum-stories > h1 {
     text-align: center;
     margin-left: -60px;
+    
 }
 .lipsum-stories > .paragraphs {
    columns: 2 ;

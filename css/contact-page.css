@@ -3,16 +3,16 @@ body{
     margin:0;
 }
 
-section > .contact {
+section .contact {
     text-align: center;
+    margin-top: -10px;
     background-color: #D8D8D8; 
     height: 130px;
-    padding-top: 10px;
     border-top: 2px solid #A0A0A0 ;
     border-bottom: 2px solid #A0A0A0 ;;
 }
 
-section > .contact-area > .pop-up {
+section  .contact-area  .pop-up {
     margin-left: 45px;
     background-color: #D7E3BF;
     padding: 5px;
@@ -22,25 +22,25 @@ section > .contact-area > .pop-up {
     margin-bottom: 20px;
 }
 
-section > .contact-area > .pop-up > p {
+section  .contact-area  .pop-up  p {
     font-weight: bold;
 }
 
-section > .contact-area > h2 {
+section .contact-area  h2 {
     margin-left: 25px;
     padding-top: 30px;
 }
 
-section > .contact-area > p {
+section  .contact-area  p {
     margin-left: 25px;
 }
 
-section > .contact-area > form {
+section  .contact-area  form {
     margin-left: 25px;
     font-weight: bold;
 }
 
-section > .contact-area > form > input{
+section  .contact-area  form input{
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 10px;
@@ -48,7 +48,7 @@ section > .contact-area > form > input{
     border: 2px solid #D5D5D5;
 }
 
-section > .contact-area > form > select {
+section .contact-area form select {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 10px;
@@ -56,12 +56,12 @@ section > .contact-area > form > select {
     border: 2px solid #D5D5D5;
 }
 
-section > .contact-area > form > textarea {
+section .contact-area form textarea {
     margin-top: 10px;
     border: 2px solid #D5D5D5;
 }
 
-section > .contact-area > form > button {
+section .contact-area formbutton {
     float: right;
     margin-right: 45px;
     margin-top: 10px;
@@ -71,7 +71,7 @@ section > .contact-area > form > button {
     padding-bottom: 5px;
 }
 
-section > .contact-area > address {
+section .contact-area address {
     margin-left: 25px;
     margin-bottom: 50px;
 }

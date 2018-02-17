@@ -3,7 +3,8 @@ body{
     padding: 0;
 }
 
-section >  .about {
+section .about {
+    margin-top: -10px;
     width: 100%;
     background-color: #D8D8D8;
     height: 150px;
@@ -11,35 +12,35 @@ section >  .about {
     border-bottom:2px solid #939393;
 }
 
-section >  .about > h3,p {
+section  .about h3,p {
     text-align: center;
 }
 
 
-section > .lipsum-story > h2{
+section .lipsum-story h2{
     text-align: center;
 }
 
-section > .lipsum-story > .main-wrap{
+section .lipsum-story .main-wrap{
 display: flex;
 }
 
-section > .lipsum-story > .main-wrap > img {
+section .lipsum-story .main-wrap img {
     width:350px; 
     height: 350px; 
     margin-left:5%;
 }
 
-section > .lipsum-story > .main-wrap > .section-wrap1{
+section .lipsum-story .main-wrap .section-wrap1{
     margin-left: 2%;
     width: 60%;
 }
 
-section > .lipsum-story > .main-wrap > .section-wrap1 > p {
+section .lipsum-story .main-wrap .section-wrap1 p {
     text-align: left;
 }
 
-section > .lipsum-story > .section-wrap2 > p {
+section .lipsum-story .section-wrap2 p {
     text-align: left;
     margin-left: 5%;
 }

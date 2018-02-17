@@ -1,0 +1,241 @@
+body{
+    padding: 0;
+    margin:0;
+}
+
+section .contact {
+    text-align: center;
+    margin-top: -10px;
+    background-color: #D8D8D8; 
+    height: 130px;
+    border-top: 2px solid #A0A0A0 ;
+    border-bottom: 2px solid #A0A0A0 ;;
+}
+
+section  .contact-area  .pop-up {
+    margin-left: 45px;
+    background-color: #D7E3BF;
+    padding: 5px;
+    border-radius: 10px;
+    border:2px solid #969C8B;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+section  .contact-area  .pop-up  p {
+    font-weight: bold;
+}
+
+section .contact-area  h2 {
+    margin-left: 25px;
+    padding-top: 30px;
+}
+
+section  .contact-area  p {
+    margin-left: 25px;
+}
+
+section  .contact-area  form {
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+section  .contact-area  form input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 450px;
+    border: 2px solid #D5D5D5;
+}
+
+section .contact-area form select {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 475px;
+    border: 2px solid #D5D5D5;
+}
+
+section .contact-area form textarea {
+    margin-top: 10px;
+    border: 2px solid #D5D5D5;
+}
+
+#message {
+    color: black;
+    display: block;
+    margin: auto;
+    height: 12em;
+    width: 70%;
+    max-width: 70%;
+    margin-left: 0px;
+}
+
+section .contact-area formbutton {
+    float: right;
+    margin-right: 45px;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+section .contact-area address {
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px){
+    section  .contact-area  .pop-up {
+        margin-left: 25px;
+        background-color: #D7E3BF;
+        padding: 5px;
+        border-radius: 10px;
+        border:2px solid #969C8B;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #message {
+        color: black;
+        display: block;
+        margin: auto;
+        height: 12em;
+        width: 90%;
+        max-width: 90%;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    section  .contact-area  .pop-up {
+        margin-left: 45px;
+        background-color: #D7E3BF;
+        padding: 2px;
+        border-radius: 5px;
+        border:2px solid #969C8B;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    #message {
+        color: black;
+        display: block;
+        margin: auto;
+        height: 12em;
+        width: 80%;
+        max-width: 80%;
+        margin-left: 0px;
+    }
+
+    section  .contact-area  form input{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        width: 350px;
+        border: 2px solid #D5D5D5;
+    }
+    
+    section .contact-area form select {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        width: 375px;
+        border: 2px solid #D5D5D5;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    section  .contact-area  .pop-up {
+        margin-left: 45px;
+        background-color: #D7E3BF;
+        padding: 2px;
+        border-radius: 5px;
+        border:2px solid #969C8B;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    section  .contact-area  form input{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        width: 300px;
+        border: 2px solid #D5D5D5;
+    }
+    
+    section .contact-area form select {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        width: 325px;
+        border: 2px solid #D5D5D5;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    section  .contact-area  .pop-up {
+        margin-left: 45px;
+        background-color: #D7E3BF;
+        padding: 2px;
+        border-radius: 5px;
+        border:2px solid #969C8B;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    #message {
+        color: black;
+        display: block;
+        margin: auto;
+        height: 12em;
+        width: 80%;
+        max-width: 80%;
+        margin-left: 0px;
+    }
+
+    section  .contact-area  form input{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        width: 250px;
+        border: 2px solid #D5D5D5;
+    }
+    
+    section .contact-area form select {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        width: 275px;
+        border: 2px solid #D5D5D5;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    section  .contact-area  form input{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        width: 200px;
+        border: 2px solid #D5D5D5;
+    }
+    
+    section .contact-area form select {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        width: 225px;
+        border: 2px solid #D5D5D5;
+    }
+
+    #message {
+        color: black;
+        display: block;
+        margin: auto;
+        height: 12em;
+        width: 80%;
+        max-width: 80%;
+        margin-left: 0px;
+    }
+}

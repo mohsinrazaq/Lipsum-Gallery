@@ -22,7 +22,7 @@ section .lipsum-story h2{
 }
 
 section .lipsum-story .main-wrap{
-display: flex;
+    display: flex;
 }
 
 section .lipsum-story .main-wrap img {
@@ -42,5 +42,29 @@ section .lipsum-story .main-wrap .section-wrap1 p {
 
 section .lipsum-story .section-wrap2 p {
     text-align: left;
-    margin-left: 5%;
+    margin-left: 2%;
+}
+
+@media only screen and (max-width: 1260px){
+    section .lipsum-story .main-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+    section .lipsum-story .main-wrap img {
+        width:350px; 
+        height: 350px; 
+        align-self: center;
+    }
+    section .lipsum-story .main-wrap .section-wrap1{
+        margin-left: 2%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    section .lipsum-story .main-wrap img {
+        width:250px; 
+        height: 250px; 
+        align-self: center;
+    }
 }

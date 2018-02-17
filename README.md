@@ -1,2 +1,2 @@
-# Lipsum-Gallery-2
-final project at skyimpel
+# Lipsum-Gallery
+final project at skyimpel after first-milestone
